@@ -5,13 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project</title>
-
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="container site-container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Synthetic</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Wool</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Denim</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Silk</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Line</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="header-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ea  laudantium debitis sit.</p>
+    </header>
 
+
+    <!-- Main-content -->
+    <main class="main-content">
+      <div class="controls-wrapper">
+
+        <svg class="arrow arrow-left" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M560-280 360-480l200-200v400Z"/></svg>
+        <svg class="arrow arrow-right" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M400-280v-400l200 200-200 200Z"/></svg>
+
+        <ul class="controls-list">
+          <li class="controls-item">
+            <dl class="controls">
+              <dt class="controls-text">Timer</dt>
+              <dd class="controls-value">45 min</dd>
+            </dl>
+          </li>
+          <li class="controls-item">
+            <dl class="controls">
+              <dt class="controls-text">Temperature</dt>
+              <dd class="controls-value">Cold</dd>
+            </dl>
+          </li>
+          <li class="controls-item">
+            <dl class="controls">
+              <dt class="controls-text">Load</dt>
+              <dd class="controls-value">Medium</dd>
+            </dl>
+          </li>
+        </ul>
+
+        <button class="button" type="button">Start</button>
+      </div>
+    </main>
+  </div>
 
 
   <script src="js/main.js"></script>

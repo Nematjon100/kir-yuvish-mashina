@@ -122,15 +122,16 @@ img {
 .controls-wrapper {
   position: relative;
   width: 900px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .5);
 }
 
 .arrow {
   position: absolute;
-  width: 60px;
-  height: 60px;
-  padding: 15px;
+  width: 100px;
+  height: 100px;
+  padding: 30px;
   background-color: #fff;
-  opacity: 0.6;
+  opacity: 0.3;
   cursor: pointer;
 }
 
@@ -182,20 +183,22 @@ img {
 
 .controls-text {
   margin: 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   color: var(--bg-color);
 }
 
 .controls-value {
   margin: 0;
   color: #fff;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .button {
   position: absolute;
   width: 270px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: 0;
   top: 270px;
   left: 15px;
